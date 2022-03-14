@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="207.028" tests="5" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sounakroy\eclipse-workspace\ExittestAssignment\target\test-classes;C:\Users\sounakroy\eclipse-workspace\ExittestAssignment\target\classes;C:\Users\sounakroy\.m2\repository\io\cucumber\cucumber-java\6.8.1\cucumber-java-6.8.1.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\cucumber-core\6.8.1\cucumber-core-6.8.1.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\cucumber-gherkin\6.8.1\cucumber-gherkin-6.8.1.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.8.1\cucumber-gherkin-messages-6.8.1.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\cucumber-plugin\6.8.1\cucumber-plugin-6.8.1.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\docstring\6.8.1\docstring-6.8.1.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\create-meta\2.0.2\create-meta-2.0.2.jar;C:\Users\sounakroy\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\cucumber-picocontainer\6.8.1\cucumber-picocontainer-6.8.1.jar;C:\Users\sounakroy\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\gherkin\15.0.2\gherkin-15.0.2.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\messages\13.2.1\messages-13.2.1.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\cucumber-testng\6.8.1\cucumber-testng-6.8.1.jar;C:\Users\sounakroy\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\sounakroy\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\sounakroy\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\sounakroy\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\sounakroy\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\sounakroy\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sounakroy\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\sounakroy\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\sounakroy\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\sounakroy\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\sounakroy\.m2\repository\tech\grasshopper\extentreports-cucumber6-adapter\2.0.0\extentreports-cucumber6-adapter-2.0.0.jar;C:\Users\sounakroy\.m2\repository\com\aventstack\klov-reporter\5.0.1\klov-reporter-5.0.1.jar;C:\Users\sounakroy\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\sounakroy\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\sounakroy\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\sounakroy\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\sounakroy\.m2\repository\com\aventstack\extentreports\5.0.4\extentreports-5.0.4.jar;C:\Users\sounakroy\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sounakroy\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sounakroy\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sounakroy\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\sounakroy\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sounakroy\.m2\repository\io\appium\java-client\6.1.0\java-client-6.1.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\sounakroy\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\sounakroy\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sounakroy\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\sounakroy\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sounakroy\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\sounakroy\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sounakroy\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sounakroy\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sounakroy\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sounakroy\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sounakroy\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\sounakroy\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\sounakroy\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\sounakroy\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\sounakroy\.m2\repository\cglib\cglib\3.2.6\cglib-3.2.6.jar;C:\Users\sounakroy\.m2\repository\org\ow2\asm\asm\6.0\asm-6.0.jar;C:\Users\sounakroy\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\sounakroy\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\sounakroy\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\sounakroy\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\sounakroy\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\sounakroy\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sounakroy\.m2\repository\org\springframework\spring-context\5.0.5.RELEASE\spring-context-5.0.5.RELEASE.jar;C:\Users\sounakroy\.m2\repository\org\springframework\spring-aop\5.0.5.RELEASE\spring-aop-5.0.5.RELEASE.jar;C:\Users\sounakroy\.m2\repository\org\springframework\spring-beans\5.0.5.RELEASE\spring-beans-5.0.5.RELEASE.jar;C:\Users\sounakroy\.m2\repository\org\springframework\spring-core\5.0.5.RELEASE\spring-core-5.0.5.RELEASE.jar;C:\Users\sounakroy\.m2\repository\org\springframework\spring-jcl\5.0.5.RELEASE\spring-jcl-5.0.5.RELEASE.jar;C:\Users\sounakroy\.m2\repository\org\springframework\spring-expression\5.0.5.RELEASE\spring-expression-5.0.5.RELEASE.jar;C:\Users\sounakroy\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\sounakroy\.m2\repository\org\openpnp\opencv\3.2.0-1\opencv-3.2.0-1.jar;C:\Users\sounakroy\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\sounakroy\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar;"/>
+    <property name="java.vm.vendor" value="Red Hat, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://developers.redhat.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.302-1\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\SOUNAK~1\AppData\Local\Temp\surefire8779739242157248832\surefirebooter5320709343367408774.jar C:\Users\sounakroy\AppData\Local\Temp\surefire8779739242157248832 2022-03-14T14-27-55_143-jvmRun1 surefire6312586009052925389tmp surefire_01587811251207650464tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\sounakroy\eclipse-workspace\ExittestAssignment\target\test-classes;C:\Users\sounakroy\eclipse-workspace\ExittestAssignment\target\classes;C:\Users\sounakroy\.m2\repository\io\cucumber\cucumber-java\6.8.1\cucumber-java-6.8.1.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\cucumber-core\6.8.1\cucumber-core-6.8.1.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\cucumber-gherkin\6.8.1\cucumber-gherkin-6.8.1.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.8.1\cucumber-gherkin-messages-6.8.1.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\cucumber-plugin\6.8.1\cucumber-plugin-6.8.1.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\docstring\6.8.1\docstring-6.8.1.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\create-meta\2.0.2\create-meta-2.0.2.jar;C:\Users\sounakroy\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\cucumber-picocontainer\6.8.1\cucumber-picocontainer-6.8.1.jar;C:\Users\sounakroy\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\gherkin\15.0.2\gherkin-15.0.2.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\messages\13.2.1\messages-13.2.1.jar;C:\Users\sounakroy\.m2\repository\io\cucumber\cucumber-testng\6.8.1\cucumber-testng-6.8.1.jar;C:\Users\sounakroy\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\sounakroy\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\sounakroy\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\sounakroy\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\sounakroy\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\sounakroy\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sounakroy\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\sounakroy\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\sounakroy\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\sounakroy\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\sounakroy\.m2\repository\tech\grasshopper\extentreports-cucumber6-adapter\2.0.0\extentreports-cucumber6-adapter-2.0.0.jar;C:\Users\sounakroy\.m2\repository\com\aventstack\klov-reporter\5.0.1\klov-reporter-5.0.1.jar;C:\Users\sounakroy\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\sounakroy\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\sounakroy\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\sounakroy\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\sounakroy\.m2\repository\com\aventstack\extentreports\5.0.4\extentreports-5.0.4.jar;C:\Users\sounakroy\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sounakroy\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sounakroy\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sounakroy\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\sounakroy\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sounakroy\.m2\repository\io\appium\java-client\6.1.0\java-client-6.1.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\sounakroy\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\sounakroy\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sounakroy\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\sounakroy\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sounakroy\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\sounakroy\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sounakroy\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sounakroy\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sounakroy\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sounakroy\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sounakroy\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\sounakroy\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\sounakroy\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\sounakroy\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\sounakroy\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\sounakroy\.m2\repository\cglib\cglib\3.2.6\cglib-3.2.6.jar;C:\Users\sounakroy\.m2\repository\org\ow2\asm\asm\6.0\asm-6.0.jar;C:\Users\sounakroy\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\sounakroy\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\sounakroy\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\sounakroy\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\sounakroy\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\sounakroy\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sounakroy\.m2\repository\org\springframework\spring-context\5.0.5.RELEASE\spring-context-5.0.5.RELEASE.jar;C:\Users\sounakroy\.m2\repository\org\springframework\spring-aop\5.0.5.RELEASE\spring-aop-5.0.5.RELEASE.jar;C:\Users\sounakroy\.m2\repository\org\springframework\spring-beans\5.0.5.RELEASE\spring-beans-5.0.5.RELEASE.jar;C:\Users\sounakroy\.m2\repository\org\springframework\spring-core\5.0.5.RELEASE\spring-core-5.0.5.RELEASE.jar;C:\Users\sounakroy\.m2\repository\org\springframework\spring-jcl\5.0.5.RELEASE\spring-jcl-5.0.5.RELEASE.jar;C:\Users\sounakroy\.m2\repository\org\springframework\spring-expression\5.0.5.RELEASE\spring-expression-5.0.5.RELEASE.jar;C:\Users\sounakroy\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\sounakroy\.m2\repository\org\openpnp\opencv\3.2.0-1\opencv-3.2.0-1.jar;C:\Users\sounakroy\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\sounakroy\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sounakroy"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.302-1\jre"/>
+    <property name="basedir" value="C:\Users\sounakroy\eclipse-workspace\ExittestAssignment"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\SOUNAK~1\AppData\Local\Temp\surefire8779739242157248832\surefirebooter5320709343367408774.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.302-1\jre\lib\resources.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.302-1\jre\lib\rt.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.302-1\jre\lib\sunrsasign.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.302-1\jre\lib\jsse.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.302-1\jre\lib\jce.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.302-1\jre\lib\charsets.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.302-1\jre\lib\jfr.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.302-1\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_302-b08"/>
+    <property name="user.name" value="sounakroy"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.302-1\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sounakroy\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugzilla.redhat.com/enter_bug.cgi"/>
+    <property name="java.io.tmpdir" value="C:\Users\SOUNAK~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_302"/>
+    <property name="user.dir" value="C:\Users\sounakroy\eclipse-workspace\ExittestAssignment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.302-1\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/sounakroy/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/sounakroy/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files\Microsoft MPI\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.302-1\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\apache-maven-3.8.4\bin;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.302-1\bin;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools;C:\Users\sounakroy\AppData\Local\Android\Sdk\tools;C:\Users\sounakroy\AppData\Local\Android\Sdk\tools\bin;C:\Users\sounakroy\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sounakroy\AppData\Local\Programs\Python\Python310\;C:\Users\sounakroy\AppData\Local\Microsoft\WindowsApps;C:\Users\sounakroy\.dotnet\tools;C:\Users\sounakroy\AppData\Roaming\npm;C:\Program Files\Azure Data Studio\bin;C:\apache-maven-3.8.4\bin;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.302-1\bin;C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools;C:\Users\sounakroy\AppData\Local\Android\Sdk\tools;;C:\Windows\System32;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Red Hat, Inc."/>
+    <property name="java.vm.version" value="25.302-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.302-1\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="runScenario" classname="Runner.TestRunner" time="54.472"/>
+  <testcase name="runScenario" classname="Runner.TestRunner" time="38.372">
+    <failure message="The element &apos;By.xpath: //android.widget.TextView[@index=&apos;4&apos;]&apos; does not exist in DOM anymore&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;IN-PG02H7X8&apos;, ip: &apos;192.168.1.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_302&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: ./Application/ApiDemos-debu..., appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, databaseEnabled: false, desired: {app: ./Application/ApiDemos-debu..., appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, deviceName: Android, isHeadless: false, platformName: android, platformVersion: 8.1}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: fe143500-c213-4ba4-9047-183a8c74dd2e" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+The element 'By.xpath: //android.widget.TextView[@index='4']' does not exist in DOM anymore
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IN-PG02H7X8', ip: '192.168.1.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_302'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: ./Application/ApiDemos-debu..., appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, databaseEnabled: false, desired: {app: ./Application/ApiDemos-debu..., appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, deviceName: Android, isHeadless: false, platformName: android, platformVersion: 8.1}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: fe143500-c213-4ba4-9047-183a8c74dd2e
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-03-14 14:28:56.351 [main] BaseTest - starting Appium..........
+&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v1.22.2
+&amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on 0.0.0.0:4723
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/status&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Calling AppiumDriver.getStatus() with args: []
+[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.2"}}
+[INFO ] 2022-03-14 14:29:05.258 [main] BaseTest - initialize driver..........
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m35 ms - 68&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"desiredCapabilities":{"app":"./Application/ApiDemos-debug.apk","appActivity":"io.appium.android.apis.ApiDemos","appPackage":"io.appium.android.apis","isHeadless":"false","platformVersion":"8.1","platformName":"Android","deviceName":"Android"},"capabilities":{"alwaysMatch":{"appium:app":"./Application/ApiDemos-debug.apk","appium:appActivity":"io.appium.android.apis.ApiDemos","appium:appPackage":"io.appium.android.apis","appium:deviceName":"Android","isHeadless":"false","platformName":"android","appium:platformVersion":"8.1"},"firstMatch":[{}]}}&amp#27;[39m
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Calling AppiumDriver.createSession() with args: [{"app":"./Application/ApiDemos-debug.apk","appActivity":"io.appium.android.apis.ApiDemos","appPackage":"io.appium.android.apis","isHeadless":"false","platformVersion":"8.1","platformName":"Android","deviceName":"Android"},null,{"alwaysMatch":{"appium:app":"./Application/ApiDemos-debug.apk","appium:appActivity":"io.appium.android.apis.ApiDemos","appium:appPackage":"io.appium.android.apis","appium:deviceName":"Android","isHeadless":"false","platformName":"android","appium:platformVersion":"8.1"},"firstMatch":[{}]}]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionRequested' logged at 1647248345371 (14:29:05 GMT+0530 (India Standard Time))
+&amp#27;[35m[BaseDriver]&amp#27;[39m The following capabilities are not standard capabilities and should have an extension prefix:
+&amp#27;[35m[BaseDriver]&amp#27;[39m   isHeadless
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m ======================================================================
+&amp#27;[35m[Appium]&amp#27;[39m   DEPRECATION WARNING:
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m   The 'automationName' capability was not provided in the desired 
+&amp#27;[35m[Appium]&amp#27;[39m   capabilities for this Android session
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m   Setting 'automationName=UiAutomator2' by default and using the 
+&amp#27;[35m[Appium]&amp#27;[39m   UiAutomator2 Driver
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m   The next major version of Appium (2.x) will **require** the 
+&amp#27;[35m[Appium]&amp#27;[39m   'automationName' capability to be set for all sessions on all 
+&amp#27;[35m[Appium]&amp#27;[39m   platforms
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m   In previous versions (Appium <= 1.13.x), the default was 
+&amp#27;[35m[Appium]&amp#27;[39m   'automationName=UiAutomator1'
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m   If you wish to use that automation instead of UiAutomator2, please 
+&amp#27;[35m[Appium]&amp#27;[39m   add 'automationName=UiAutomator1' to your desired capabilities
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m   For more information about drivers, please visit 
+&amp#27;[35m[Appium]&amp#27;[39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+&amp#27;[35m[Appium]&amp#27;[39m   'Drivers' menu
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m ======================================================================
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m Appium v1.22.2 creating new AndroidUiautomator2Driver (v1.70.1) session
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Creating session with W3C capabilities: {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "alwaysMatch": {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:isHeadless": "false",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "platformName": "android",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:app": "./Application/ApiDemos-debug.apk",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appActivity": "io.appium.android.apis.ApiDemos",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appPackage": "io.appium.android.apis",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:deviceName": "Android",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:platformVersion": "8.1"
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   },
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "firstMatch": [
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     {}
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   ]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m }
+&amp#27;[35m[BaseDriver]&amp#27;[39m Capability 'isHeadless' changed from string to boolean. This may cause unexpected behavior
+&amp#27;[35m[BaseDriver]&amp#27;[39m Session created with session id: fe143500-c213-4ba4-9047-183a8c74dd2e
+&amp#27;[35m[BaseDriver]&amp#27;[39m Using local app './Application/ApiDemos-debug.apk'
+&amp#27;[35m[BaseDriver]&amp#27;[39m The current application path './Application/ApiDemos-debug.apk' is not absolute and has been rewritten to 'C:\Users\sounakroy\eclipse-workspace\ExittestAssignment\Application\ApiDemos-debug.apk'. Consider using absolute paths rather than relative
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Checking whether app is actually present
+&amp#27;[35m[ADB]&amp#27;[39m Found 2 'build-tools' folders under 'C:\Users\sounakroy\AppData\Local\Android\Sdk' (newest first):
+&amp#27;[35m[ADB]&amp#27;[39m     C:/Users/sounakroy/AppData/Local/Android/Sdk/build-tools/31.0.0
+&amp#27;[35m[ADB]&amp#27;[39m     C:/Users/sounakroy/AppData/Local/Android/Sdk/build-tools/30.0.2
+&amp#27;[35m[ADB]&amp#27;[39m Using 'adb.exe' from 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Retrieving device list
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Trying to find a connected android device
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting connected devices
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Connected devices: [{"udid":"emulator-5554","state":"device"}]
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Looking for a device with Android '8.1.0'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Setting device id to emulator-5554
+&amp#27;[35m[ADB]&amp#27;[39m Getting device platform version
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.release': 8.1.0
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Using device: emulator-5554
+&amp#27;[35m[ADB]&amp#27;[39m Using 'adb.exe' from 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Setting device id to emulator-5554
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.sdk': 27
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Device API level: 27
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Pushing settings apk to device...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.settings
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.settings' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+[debug] &amp#27;[35m[ADB]&amp#27;[39m There is no need to install/upgrade 'C:\Users\sounakroy\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting IDs of all 'io.appium.settings' processes
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] &amp#27;[35m[Logcat]&amp#27;[39m Starting logs capture with command: C:\\Users\\sounakroy\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 logcat -v threadtime
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Forwarding UiAutomator2 Server port 6790 to local port 8200
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Forwarding system: 8200 to device: 6790
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8200 tcp:6790'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.uiautomator2.server
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.uiautomator2.server' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.27.0' >= '4.27.0')
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Checking app cert for C:\Users\sounakroy\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk
+&amp#27;[35m[ADB]&amp#27;[39m Using 'apksigner.jar' from 'C:\Users\sounakroy\AppData\Local\Android\Sdk\build-tools\31.0.0\lib\apksigner.jar'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting apksigner: 'C:\\Program Files\\RedHat\\java-1.8.0-openjdk-1.8.0.302-1\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\sounakroy\\AppData\\Local\\Android\\Sdk\\build-tools\\31.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\sounakroy\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.27.0.apk
+[debug] &amp#27;[35m[ADB]&amp#27;[39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 
+[debug] &amp#27;[35m[ADB]&amp#27;[39m sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
+&amp#27;[35m[ADB]&amp#27;[39m 'C:\Users\sounakroy\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.uiautomator2.server.test
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.uiautomator2.server.test' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Checking app cert for C:\Users\sounakroy\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting apksigner: 'C:\\Program Files\\RedHat\\java-1.8.0-openjdk-1.8.0.302-1\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\sounakroy\\AppData\\Local\\Android\\Sdk\\build-tools\\31.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\sounakroy\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+[debug] &amp#27;[35m[ADB]&amp#27;[39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 
+[debug] &amp#27;[35m[ADB]&amp#27;[39m sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+&amp#27;[35m[ADB]&amp#27;[39m 'C:\Users\sounakroy\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Server packages are not going to be (re)installed
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Waiting up to 30000ms for services to be available
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list instrumentation'
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+&amp#27;[35m[ADB]&amp#27;[39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Checking app cert for C:\Users\sounakroy\eclipse-workspace\ExittestAssignment\Application\ApiDemos-debug.apk
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting apksigner: 'C:\\Program Files\\RedHat\\java-1.8.0-openjdk-1.8.0.302-1\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\sounakroy\\AppData\\Local\\Android\\Sdk\\build-tools\\31.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\sounakroy\\eclipse-workspace\\ExittestAssignment\\Application\\ApiDemos-debug.apk
+[debug] &amp#27;[35m[ADB]&amp#27;[39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 
+[debug] &amp#27;[35m[ADB]&amp#27;[39m sha256 hash did match for 'ApiDemos-debug.apk'
+&amp#27;[35m[ADB]&amp#27;[39m 'C:\Users\sounakroy\eclipse-workspace\ExittestAssignment\Application\ApiDemos-debug.apk' is signed with the default certificate
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.android.apis
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.android.apis'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.android.apis' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.android.apis'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.android.apis'
+&amp#27;[35m[ADB]&amp#27;[39m Cannot read version codes of 'C:\Users\sounakroy\eclipse-workspace\ExittestAssignment\Application\ApiDemos-debug.apk' and/or 'io.appium.android.apis'
+&amp#27;[35m[ADB]&amp#27;[39m Cannot read version names of 'C:\Users\sounakroy\eclipse-workspace\ExittestAssignment\Application\ApiDemos-debug.apk' and/or 'io.appium.android.apis'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m The current install state of 'C:\Users\sounakroy\eclipse-workspace\ExittestAssignment\Application\ApiDemos-debug.apk' is unknown. Installing anyway
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 help'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 features'
+&amp#27;[35m[ADB]&amp#27;[39m The application at 'C:\Users\sounakroy\eclipse-workspace\ExittestAssignment\Application\ApiDemos-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 install -r C:\Users\sounakroy\eclipse-workspace\ExittestAssignment\Application\ApiDemos-debug.apk'
+&amp#27;[35m[ADB]&amp#27;[39m The installation of 'ApiDemos-debug.apk' took 1188ms
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Install command stdout: Performing Streamed Install
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Success
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Performing fast reset on 'io.appium.android.apis'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.android.apis
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.android.apis'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.android.apis' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.android.apis'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm clear io.appium.android.apis'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Performed fast reset on the installed 'io.appium.android.apis' application (stop and clear)
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Performing shallow cleanup of automation leftovers
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m No obsolete sessions have been detected (socket hang up)
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting UIAutomator2 server 4.27.0
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Using UIAutomator2 server from 'C:\Users\sounakroy\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\sounakroy\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Waiting up to 30000ms for UiAutomator2 to be online...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m socket hang up
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m socket hang up
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m socket hang up
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m socket hang up
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m socket hang up
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m The initialization of the instrumentation process took 5548ms
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/session' to command name 'createSession'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /session] to [POST http://127.0.0.1:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","isHeadless":false,"app":"./Application/ApiDemos-debug.apk","appActivity":"io.appium.android.apis.ApiDemos","appPackage":"io.appium.android.apis","deviceName":"Android","platformVersion":"8.1"},"platformName":"android","isHeadless":false,"app":"./Application/ApiDemos-debug.apk","appActivity":"io.appium.android.apis.ApiDemos","appPackage":"io.appium.android.apis","deviceName":"emulator-5554","platformVersion":"8.1","deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","isHeadless":false,"app":"./Application/ApiDemos-debug.apk","appActivity":"io.appium.android.apis.ApiDemos","appPackage":"io.appium.android.apis","deviceName":"Android","platformVersion":"8.1"},"platformName":"android","isHeadless":false,"app":"./Application/ApiDemos-debug.apk","appActivity":"io.appium.android.apis.ApiDemos","appPackage":"io.appium.android.apis","deviceName":"emulator-5554","platformVersion":"8.1","deviceUDID":"emulator-5554"}],"alwaysMatch":{}},"sessionId":"66333bf5-c966-4241-9322-ca9854df9405"}}
+&amp#27;[35m[WD Proxy]&amp#27;[39m Determined the downstream protocol as 'W3C'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/wd/hub/session/66333bf5-c966-4241-9322-ca9854df9405/appium/device/info] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":{"androidId":"f7078d91a8033308","apiVersion":"27","bluetooth":null,"brand":"google","carrierName":"Android","displayDensity":420,"locale":"en_US","manufacturer":"Google","model":"Android SDK built for x86","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING","signalStrength":-50,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"\"AndroidWifi\"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":102400,"linkUpstreamBandwidthKbps":51200,"networkCapabilities":"NET_CAPABILITY_MMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_DUN,NE...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Screen already unlocked, doing nothing
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting 'io.appium.android.apis/io.appium.android.apis.ApiDemos and waiting for 'io.appium.android.apis/io.appium.android.apis.ApiDemos'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n io.appium.android.apis/io.appium.android.apis.ApiDemos -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/wd/hub/session/66333bf5-c966-4241-9322-ca9854df9405/appium/device/pixel_ratio] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":2.625}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/wd/hub/session/66333bf5-c966-4241-9322-ca9854df9405/appium/device/system_bars] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":{"statusBar":63}}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/window/current/size' to command name 'getWindowSize'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/wd/hub/session/66333bf5-c966-4241-9322-ca9854df9405/window/current/size] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":{"height":1794,"width":1080}}
+&amp#27;[35m[Appium]&amp#27;[39m New AndroidUiautomator2Driver session created successfully, session fe143500-c213-4ba4-9047-183a8c74dd2e added to master session list
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionStarted' logged at 1647248365824 (14:29:25 GMT+0530 (India Standard Time))
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Cached the protocol value 'W3C' for the new session fe143500-c213-4ba4-9047-183a8c74dd2e
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","isHeadless":false,"app":"./Application/ApiDemos-debug.apk","appActivity":"io.appium.android.apis.ApiDemos","appPackage":"io.appium.android.apis","deviceName":"Android","platformVersion":"8.1"},"platformName":"android","isHeadless":false,"app":"./Application/ApiDemos-debug.apk","appActivity":"io.appium.android.apis.ApiDemos","appPackage":"io.appium.android.apis","deviceName":"emulator-5554","platformVersion":"8.1.0","deviceUDID":"emulator-5554","deviceApiLevel":27,"deviceScreenSize":"1080x1920","deviceScreenDensity":420,"deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","pixelRatio":2.625,"statBarHeight":63,"viewportRect":{"left":0,"top":63,"width":1080,"height":1731}}}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m20469 ms - 1007&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Calling AppiumDriver.getSession() with args: ["fe143500-c213-4ba4-9047-183a8c74dd2e"]
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Getting session details from server to mix in
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/' to command name 'getSession'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /] to [GET http://127.0.0.1:8200/wd/hub/session/66333bf5-c966-4241-9322-ca9854df9405] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":{"lastScrollData":null}}
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","isHeadless":false,"app":"./Application/ApiDemos-debug.apk","appActivity":"io.appium.android.apis.ApiDemos","appPackage":"io.appium.android.apis","deviceName":"Android","platformVersion":"8.1"},"platformName":"android","isHeadless":false,"app":"./Application/ApiDemos-debug.apk","appActivity":"io.appium.android.apis.ApiDemos","appPackage":"io.appium.android.apis","deviceName":"emulator-5554","platformVersion":"8.1.0","deviceUDID":"emulator-5554","deviceApiLevel":27,"deviceScreenSize":"1080x1920","deviceScreenDensity":420,"deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","pixelRatio":2.625,"statBarHeight":63,"viewportRect":{"left":0,"top":63,"width":1080,"height":1731},"lastScrollData":null}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m28 ms - 961&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Calling AppiumDriver.getSession() with args: ["fe143500-c213-4ba4-9047-183a8c74dd2e"]
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Getting session details from server to mix in
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/' to command name 'getSession'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /] to [GET http://127.0.0.1:8200/wd/hub/session/66333bf5-c966-4241-9322-ca9854df9405] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":{"lastScrollData":null}}
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","isHeadless":false,"app":"./Application/ApiDemos-debug.apk","appActivity":"io.appium.android.apis.ApiDemos","appPackage":"io.appium.android.apis","deviceName":"Android","platformVersion":"8.1"},"platformName":"android","isHeadless":false,"app":"./Application/ApiDemos-debug.apk","appActivity":"io.appium.android.apis.ApiDemos","appPackage":"io.appium.android.apis","deviceName":"emulator-5554","platformVersion":"8.1.0","deviceUDID":"emulator-5554","deviceApiLevel":27,"deviceScreenSize":"1080x1920","deviceScreenDensity":420,"deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","pixelRatio":2.625,"statBarHeight":63,"viewportRect":{"left":0,"top":63,"width":1080,"height":1731},"lastScrollData":null}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m31 ms - 961&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+[INFO ] 2022-03-14 14:29:25.912 [main] DisplayoptionPage - click on Apps
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//android.widget.TextView[@index='2']"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@index='2']","fe143500-c213-4ba4-9047-183a8c74dd2e"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/66333bf5-c966-4241-9322-ca9854df9405/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@index='2']","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":{"ELEMENT":"00000000-0000-0012-ffff-ffff00000009","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0012-ffff-ffff00000009"}}
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0012-ffff-ffff00000009","ELEMENT":"00000000-0000-0012-ffff-ffff00000009"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m1705 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element/00000000-0000-0012-ffff-ffff00000009/click&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"00000000-0000-0012-ffff-ffff00000009"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Calling AppiumDriver.click() with args: ["00000000-0000-0012-ffff-ffff00000009","fe143500-c213-4ba4-9047-183a8c74dd2e"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/00000000-0000-0012-ffff-ffff00000009/click' to command name 'click'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element/00000000-0000-0012-ffff-ffff00000009/click] to [POST http://127.0.0.1:8200/wd/hub/session/66333bf5-c966-4241-9322-ca9854df9405/element/00000000-0000-0012-ffff-ffff00000009/click] with body: {"element":"00000000-0000-0012-ffff-ffff00000009"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":null}
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Responding to client with driver.click() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element/00000000-0000-0012-ffff-ffff00000009/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m739 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+[INFO ] 2022-03-14 14:29:28.383 [main] DisplayoptionPage - click on Action Bar
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//android.widget.TextView[@index='0' and @text='Action Bar']"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@index='0' and @text='Action Bar']","fe143500-c213-4ba4-9047-183a8c74dd2e"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/66333bf5-c966-4241-9322-ca9854df9405/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@index='0' and @text='Action Bar']","context":"","multiple":false}
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 404: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:90)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:67)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Matched W3C error code 'no such element' to NoSuchElementError
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m     at AndroidUiautomator2Driver.findElOrEls (C:\Users\sounakroy\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m     at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\sounakroy\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m     at AndroidUiautomator2Driver.findElement (C:\Users\sounakroy\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element &amp#27;[39m&amp#27;[33m404&amp#27;[39m &amp#27;[90m622 ms - 890&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//android.widget.TextView[@index='0' and @text='Action Bar']"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@index='0' and @text='Action Bar']","fe143500-c213-4ba4-9047-183a8c74dd2e"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/66333bf5-c966-4241-9322-ca9854df9405/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@index='0' and @text='Action Bar']","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":{"ELEMENT":"00000000-0000-0013-ffff-ffff00000017","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0013-ffff-ffff00000017"}}
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0013-ffff-ffff00000017","ELEMENT":"00000000-0000-0013-ffff-ffff00000017"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m599 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element/00000000-0000-0013-ffff-ffff00000017/displayed&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0013-ffff-ffff00000017","fe143500-c213-4ba4-9047-183a8c74dd2e"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/00000000-0000-0013-ffff-ffff00000017/attribute/displayed' to command name 'getAttribute'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /element/00000000-0000-0013-ffff-ffff00000017/attribute/displayed] to [GET http://127.0.0.1:8200/wd/hub/session/66333bf5-c966-4241-9322-ca9854df9405/element/00000000-0000-0013-ffff-ffff00000017/attribute/displayed] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":"true"}
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Responding to client with driver.elementDisplayed() result: true
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element/00000000-0000-0013-ffff-ffff00000017/displayed &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m74 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//android.widget.TextView[@index='0' and @text='Action Bar']"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@index='0' and @text='Action Bar']","fe143500-c213-4ba4-9047-183a8c74dd2e"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/66333bf5-c966-4241-9322-ca9854df9405/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@index='0' and @text='Action Bar']","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":{"ELEMENT":"00000000-0000-0013-ffff-ffff00000017","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0013-ffff-ffff00000017"}}
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0013-ffff-ffff00000017","ELEMENT":"00000000-0000-0013-ffff-ffff00000017"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m299 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element/00000000-0000-0013-ffff-ffff00000017/enabled&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Calling AppiumDriver.elementEnabled() with args: ["00000000-0000-0013-ffff-ffff00000017","fe143500-c213-4ba4-9047-183a8c74dd2e"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/00000000-0000-0013-ffff-ffff00000017/attribute/enabled' to command name 'getAttribute'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /element/00000000-0000-0013-ffff-ffff00000017/attribute/enabled] to [GET http://127.0.0.1:8200/wd/hub/session/66333bf5-c966-4241-9322-ca9854df9405/element/00000000-0000-0013-ffff-ffff00000017/attribute/enabled] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":"true"}
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Responding to client with driver.elementEnabled() result: true
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element/00000000-0000-0013-ffff-ffff00000017/enabled &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m60 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//android.widget.TextView[@index='0' and @text='Action Bar']"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@index='0' and @text='Action Bar']","fe143500-c213-4ba4-9047-183a8c74dd2e"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/66333bf5-c966-4241-9322-ca9854df9405/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@index='0' and @text='Action Bar']","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":{"ELEMENT":"00000000-0000-0013-ffff-ffff00000017","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0013-ffff-ffff00000017"}}
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0013-ffff-ffff00000017","ELEMENT":"00000000-0000-0013-ffff-ffff00000017"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m253 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element/00000000-0000-0013-ffff-ffff00000017/click&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"00000000-0000-0013-ffff-ffff00000017"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Calling AppiumDriver.click() with args: ["00000000-0000-0013-ffff-ffff00000017","fe143500-c213-4ba4-9047-183a8c74dd2e"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/00000000-0000-0013-ffff-ffff00000017/click' to command name 'click'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element/00000000-0000-0013-ffff-ffff00000017/click] to [POST http://127.0.0.1:8200/wd/hub/session/66333bf5-c966-4241-9322-ca9854df9405/element/00000000-0000-0013-ffff-ffff00000017/click] with body: {"element":"00000000-0000-0013-ffff-ffff00000017"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":null}
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Responding to client with driver.click() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element/00000000-0000-0013-ffff-ffff00000017/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m692 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+[INFO ] 2022-03-14 14:29:31.632 [main] DisplayoptionPage - click on Display Options
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//android.widget.TextView[@index='4']"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@index='4']","fe143500-c213-4ba4-9047-183a8c74dd2e"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/66333bf5-c966-4241-9322-ca9854df9405/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@index='4']","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":{"ELEMENT":"00000000-0000-0013-ffff-ffff0000001b","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0013-ffff-ffff0000001b"}}
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0013-ffff-ffff0000001b","ELEMENT":"00000000-0000-0013-ffff-ffff0000001b"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m358 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element/00000000-0000-0013-ffff-ffff0000001b/displayed&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0013-ffff-ffff0000001b","fe143500-c213-4ba4-9047-183a8c74dd2e"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/00000000-0000-0013-ffff-ffff0000001b/attribute/displayed' to command name 'getAttribute'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /element/00000000-0000-0013-ffff-ffff0000001b/attribute/displayed] to [GET http://127.0.0.1:8200/wd/hub/session/66333bf5-c966-4241-9322-ca9854df9405/element/00000000-0000-0013-ffff-ffff0000001b/attribute/displayed] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 404: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":{"error":"stale element reference","message":"The element 'By.xpath: //android.widget.TextView[@index='4']' does not exist in DOM anymore","stacktrace":"io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: The element 'By.xpath: //android.widget.TextView[@index='4']' does not exist in DOM anymore\n\tat io.appium.uiautomator2.model.ElementsCache.restore(ElementsCache.java:117)\n\tat io.appium.uiautomator2.model.ElementsCache.get(ElementsCache.java:153)\n\tat io.appium.uiautomator2.handler.GetElementAttribute.safeHandle(GetElementAttribute.java:23)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.Abs...
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Matched W3C error code 'stale element reference' to StaleElementReferenceError
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Encountered internal error running command: io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: The element 'By.xpath: //android.widget.TextView[@index='4']' does not exist in DOM anymore
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.appium.uiautomator2.model.ElementsCache.restore(ElementsCache.java:117)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.appium.uiautomator2.model.ElementsCache.get(ElementsCache.java:153)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.appium.uiautomator2.handler.GetElementAttribute.safeHandle(GetElementAttribute.java:23)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 	at java.lang.Thread.run(Thread.java:764)
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m 
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/element/00000000-0000-0013-ffff-ffff0000001b/displayed &amp#27;[39m&amp#27;[33m404&amp#27;[39m &amp#27;[90m1130 ms - 3992&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/screenshot&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Calling AppiumDriver.getScreenshot() with args: ["fe143500-c213-4ba4-9047-183a8c74dd2e"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/screenshot' to command name 'getScreenshot'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8200/wd/hub/session/66333bf5-c966-4241-9322-ca9854df9405/screenshot] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzs3Xd01FX+//HXzKSHJAQCoSREuiQBFAUhIqCggCACShG/FpoNpYi6lhVEPf50kaKggoisYEVl\nUSwUQZoBUbEsCR3E0AmEQPrMZH5/cGbWkJnUSfmE5+OcPWvu5/O5904Iu35eufd9TZIcAgAAAAAA\nMDBzVU8AAAAAAACgvAg4AAAAAACA4RFwAAAAAAAAwyPgAAAAAAAAhkfAAQAAAAAADI+AAwAAAAAA\nGB4BBwAAAAAAMDwCDgAAAAAAYHg+VT2BymYymRQcHKy4uDj16dNHffv2VXR0tNt7HQ6HkpKStHz5\ncq1fv14HDhxQXl6eHA5HJc8aAAAAAAAUxSSpxr+tm0wmSVLr1q31yiuv6KqrrpIkmc0lW8DiDDRs\nNpu++eYbPfPMM0pLSyPoAAAAAACgmqjxAYfJZFLz5s31zTffKCgoqMShRlHsdrtSU1N11VVXKT8/\n3wuzrHwmk0lms1l+fn5let7hcCgvL8+Qn9/52S9mt9urYDYAAAAAAG+o0VtUwsLCtGjRInXq1Mkr\nwYaTxWJRvXr11LlzZyUmJnqt38piMpnk7++vVq1aqUWLFmXqw2q16sCBAzp16pTOnDkjm83m5Vl6\nj8lkkslkko+PjywWi3x8fBQcHCwfHx+ZTCY5HA7Z7XadO3dO+fn5stvtstlshgxvAAAAvCEuLk6h\noaE6d+6ckpKSqno6qGFSU1NLdF9EREQFzwQ1TY0MOEwmk7p27ap3331XwcHBFTbGhAkTtGXLFtdW\nFefLcnXmDDc6deqkl19+WZdddlmZ+8rNzdWmTZs0ffp0/fe///XeJL3EZDLJYrHIz89PISEhioyM\nVO3atRUaGipJ8vHxUa1atZSZ...
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzs3Xd01FX+//HXzKSHJAQCoSREuiQBFAUhIqCggCACShG/FpoNpYi6lhVEPf50kaKggoisYEVl\nUSwUQZoBUbEsCR3E0AmEQPrMZH5/cGbWkJnUSfmE5+OcPWvu5/O5904Iu35eufd9TZIcAgAAAAAA\nMDBzVU8AAAAAAACgvAg4AAAAAACA4RFwAAAAAAAAwyPgAAAAAAAAhkfAAQAAAAAADI+AAwAAAAAA\nGB4BBwAAAAAAMDwCDgAAAAAAYHg+VT2BymYymRQcHKy4uDj16dNHffv2VXR0tNt7HQ6HkpKStHz5\ncq1fv14HDhxQXl6eHA5HJc8aAAAAAAAUxSSpxr+tm0wmSVLr1q31yiuv6KqrrpIkmc0lW8DiDDRs\nNpu++eYbPfPMM0pLSyPoAAAAAACgmqjxAYfJZFLz5s31zTffKCgoqMShRlHsdrtSU1N11VVXKT8/\n3wuzrHwmk0lms1l+fn5let7hcCgvL8+Qn9/52S9mt9urYDYAAAAAAG+o0VtUwsLCtGjRInXq1Mkr\nwYaTxWJRvXr11LlzZyUmJnqt38piMpnk7++vVq1aqUWLFmXqw2q16sCBAzp16pTOnDkjm83m5Vl6\nj8lkkslkko+PjywWi3x8fBQcHCwfHx+ZTCY5HA7Z7XadO3dO+fn5stvtstlshgxvAAAAvCEuLk6h\noaE6d+6ckpKSqno6qGFSU1NLdF9EREQFzwQ1TY0MOEwmk7p27ap3331XwcHBFTbGhAkTtGXLFtdW\nFefLcnXmDDc6deqkl19+WZdddlmZ+8rNzdWmTZs0ffp0/fe///XeJL3EZDLJYrHIz89PISEhioyM\nVO3atRUaGipJ8vHxUa1atZSZmSmr1ar8/HydP39eaWlpOnXqlM6dO6e8vDxWdgAAgBovLi5OQ4cO\nVZ8+fR...
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e/screenshot &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m861 ms - 92246&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+[INFO ] 2022-03-14 14:29:34.149 [main] BaseTest - closing driver........
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mDELETE&amp#27;[39m &amp#27;[37m/wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Calling AppiumDriver.deleteSession() with args: ["fe143500-c213-4ba4-9047-183a8c74dd2e"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'quitSessionRequested' logged at 1647248374166 (14:29:34 GMT+0530 (India Standard Time))
+&amp#27;[35m[Appium]&amp#27;[39m Removing session fe143500-c213-4ba4-9047-183a8c74dd2e from our master session list
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Deleting UiAutomator2 session
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Deleting UiAutomator2 server session
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/' to command name 'deleteSession'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/wd/hub/session/66333bf5-c966-4241-9322-ca9854df9405] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"66333bf5-c966-4241-9322-ca9854df9405","value":null}
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.android.apis'
+[debug] &amp#27;[35m[Logcat]&amp#27;[39m Stopping logcat capture
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Removing forwarded port socket connection: 8200 
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\sounakroy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --remove tcp:8200'
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m .
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'quitSessionFinished' logged at 1647248374567 (14:29:34 GMT+0530 (India Standard Time))
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Received response: null
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m But deleting session, so not returning
+[debug] &amp#27;[35m[W3C (fe143500)]&amp#27;[39m Responding to client with driver.deleteSession() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- DELETE /wd/hub/session/fe143500-c213-4ba4-9047-183a8c74dd2e &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m404 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+[INFO ] 2022-03-14 14:29:34.571 [main] BaseTest - closing Appium............
+]]></system-out>
+    <system-err><![CDATA[Mar 14, 2022 2:29:25 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="Runner.TestRunner" time="33.981"/>
+  <testcase name="runScenario" classname="Runner.TestRunner" time="38.693"/>
+  <testcase name="runScenario" classname="Runner.TestRunner" time="31.818"/>
+</testsuite>
