@@ -43,8 +43,8 @@ public class AddtextPage {
 	{
 		log.info("click on Log Text");
 		
-		new WebDriverWait(driver, 15).until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//android.widget.TextView[@index='1']")));
-
+		Explicitwait.waitByXpath(driver,"//android.widget.TextView[@index='1']" , 15);
+		
 		logTextBox.click();
 	}
 	

@@ -68,12 +68,12 @@ public class BaseTest {
 
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		
-		capabilities.setCapability("platformVersion","8.1");
-		capabilities.setCapability("platformName","Android");
-		capabilities.setCapability("appPackage","io.appium.android.apis");
-		capabilities.setCapability("appActivity","io.appium.android.apis.ApiDemos");
-		capabilities.setCapability("app","./Application/ApiDemos-debug.apk");
-		capabilities.setCapability("deviceName","Android");
+		capabilities.setCapability("platformVersion",configProp.getProperty("platformVersion"));
+		capabilities.setCapability("platformName",configProp.getProperty("platformName"));
+		capabilities.setCapability("appPackage",configProp.getProperty("appPackage"));
+		capabilities.setCapability("appActivity",configProp.getProperty("appActivity"));
+		capabilities.setCapability("app",configProp.getProperty("app"));
+		capabilities.setCapability("deviceName",configProp.getProperty("deviceName"));
 		capabilities.setCapability("isHeadless", configProp.getProperty("HeadlessValue"));
 		try
 		{

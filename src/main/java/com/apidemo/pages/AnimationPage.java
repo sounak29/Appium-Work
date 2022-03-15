@@ -2,13 +2,11 @@ package com.apidemo.pages;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 import com.apidemo.utitlity.Explicitwait;
 
@@ -35,8 +33,7 @@ public class AnimationPage {
 	{
 		log.info("click on Hide-Show Animation button ");
 		
-		new WebDriverWait(driver, 20).until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//android.widget.TextView[@index='5']")));
-
+		Explicitwait.waitByXpath(driver, "//android.widget.TextView[@index='5']", 15);
 		
 		showHide.click();
 	}
@@ -67,10 +64,6 @@ public class AnimationPage {
 	public void clickHide()
 	{
 		log.info("click on buttons to hide");
-		
-		Explicitwait.wait(driver,hideButton0,15);
-		Explicitwait.wait(driver,hideButton1,15);
-
 
 		hideButton0.click();
 		hideButton1.click();
