@@ -11,5 +11,5 @@ Feature: Check Display Title button Functionality
         
     Examples:
     |							title								|
-    |App/Action Bar/Display Options		|
+    |App/Action Bar/Display Option		|
     
