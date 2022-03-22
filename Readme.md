@@ -44,7 +44,7 @@ Maven clean
 * Report folder contain extent report
 * Screenshots folder contain all the screenshot for failed testcases.
 * test-output folder contain report generated from TestNG 
-* Resources folder contain configuration properties file 
+* Resources folder contain configuration properties file and testdata.xlsx file
 
 **Note -** Screenshot folder is created only when any test case got failed otherwise its not created.
 
@@ -64,7 +64,7 @@ Maven clean
  * log4j Properties File:  src/main/resources
  * extent Report Properties File:  src/test/resources
  * Configuration properties File: ./Resources/Config.properties
- 
+ * Testdata XL file: ./Resources/Testdata.xlsx
 
 >for changing headless mode
 
